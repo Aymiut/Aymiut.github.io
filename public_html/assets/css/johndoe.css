@@ -11607,12 +11607,23 @@ pre .code {
   background: rgba(242, 244, 247, 0.15);
 }
 
-.about-section {
-  border-bottom: 1px solid #dee2e6;
+.about-section .about-card h3 {
+  font-family: "Source Sans Pro", sans-serif;
 }
+
+.about-section .info li {
+  text-align: right; /* Aligne les infos personnelles à droite */
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  line-height: 1.8; /* Améliore la lisibilité du texte */
+}
+
 
 .about-section .about-card {
   padding: 60px;
+  margin-right: 10%;
   border-right: 1px solid #dee2e6;
 }
 
