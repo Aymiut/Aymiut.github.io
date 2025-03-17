@@ -39,13 +39,13 @@
             <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a href="#home" class="nav-link">Acceuil</a>
+                        <a href="#home" class="nav-link">Accueil</a>
                     </li>
                     <li class="nav-item">
                         <a href="#about" class="nav-link">Qui suis-je</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#resume" class="nav-link">Formation/Réalisations</a>
+                        <a href="#resume" class="nav-link">Formation/Compétences</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto">
@@ -129,23 +129,31 @@
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 97%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <h6>Protocoles réseaux</h6>
+                            <h6>Bash</h6>
                             <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Docker / Podman</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Administration Cisco</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Python</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Git</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <h6>SQL</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <h6>Java</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>C</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Git</h6>
+                            <h6>Java / J2EE</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
@@ -154,7 +162,7 @@
                     <div class="card">
                        <div class="card-header">
                             <div class="pull-left">
-                                <h4 class="mt-2">Langages</h4>
+                                <h4 class="mt-2">Langues</h4>
                                 <span class="line"></span>  
                             </div>
                         </div>
@@ -187,16 +195,49 @@
             <div class="col-md-6 col-lg-4" id="projets">
                 <div class="card">
                     <div class="card-header">
-                        <h4>Linux</h4>
+                        <h4>Déploiement automatisé de  l'ERP Odoo</h4>
                         <span class="line"></span>
                     </div>
                     <div class="card-body px-4 py-3">
-                        <h5 class="mb-3 card-title text-dark">Mise en place d'un système de communication basé sur Matrix</h5>
+                        <h5 class="mb-3 card-title text-dark">Linux, Bash, Docker, Reverse Proxy</h5>
+                        <p>
+                            Ce projet consistait à mettre en place une infrastructure d’hébergement permettant le déploiement automatisé de serveurs Odoo pour différents clients. L’infrastructure comprenait un serveur PostgreSQL pour la gestion des bases de données clients, des instances Odoo déployées en conteneurs Docker, un reverse proxy Traefik pour la gestion des accès sécurisés en HTTPS, et un serveur de sauvegarde automatisé. J’ai développé des scripts Shell pour automatiser la création des machines virtuelles, le déploiement des instances Odoo et la sécurisation des communications.
+                            </p>
+                            
+                        <p class="subtitle" style="text-align: justify;">
+                            Ce projet m’a permis de renforcer mes compétences en administration Linux, virtualisation, scripting Bash, gestion de conteneurs Docker, mise en place de reverse proxy et sécurisation d’infrastructures.                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" id="projets">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Mise en place d'un système de communication basé sur Matrix</h4>
+                        <span class="line"></span>
+                    </div>
+                    <div class="card-body px-4 py-3">
+                        <h5 class="mb-3 card-title text-dark">Linux, Reverse Proxy, PostgreSQL, Synapse</h5>
                         <p class="subtitle">
                             Ce projet consistait à déployer une solution de communication sécurisée pour une entreprise, basée sur le standard Matrix. Nous avons utilisé le serveur Synapse (Python) et le client Element Web pour permettre des échanges synchrones et asynchrones, en 1-à-1, en groupe ou en forum, avec chiffrement de bout en bout. Le service, accessible via web, application lourde ou mobile, a été déployé sur des machines virtuelles sans interface graphique, administrées à distance. 
                         </p>
                         <p class="subtitle" style="text-align: justify;">
                             Ce projet m’a permis de développer des compétences en administration de serveurs, virtualisation, déploiement de solutions open source, sécurisation des communications et scripting pour l’automatisation.                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" id="projets">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Classification avec l'algorithme Knn</h4>
+                        <span class="line"></span>
+                    </div>
+                    <div class="card-body px-4 py-3">
+                        <h5 class="mb-3 card-title text-dark">Java, JavaFx</h5>
+                        <p class="subtitle">
+                            Ce projet visait à développer une application de classification automatique de données issues de fichiers CSV, en intégrant l’algorithme k-NN. L'application devait être générique et compatible avec n'importe quel dataset. J’ai intégré les CSV Pokémon et joueurs de rugby, en créant les classes et méthodes nécessaires, et j’ai renforcé la robustesse de l’algorithme k-NN. J’ai également implémenté un pop-up interactif permettant d’ajouter dynamiquement des points selon le CSV choisi, et participé à la correction de la classification aléatoire. 
+                        </p>
+                        <p class="subtitle" style="text-align: justify;">
+                            Ce projet m’a permis d’approfondir mes compétences en Java, JavaFX, structuration MVC, traitement de données et machine learning.       </p>
                     </div>
                 </div>
             </div>
